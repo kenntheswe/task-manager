@@ -33,4 +33,36 @@ body {
   padding: 8px 16px;
   border-radius: 8px;
   cursor: pointer;
+  margin: 4px;
+  font-size: 16px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: hsl(0, 0%, 90%);
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 4px solid hsl(158, 64%, 52%);
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
