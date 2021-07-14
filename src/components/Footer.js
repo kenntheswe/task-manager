@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <p>&copy; 2021 Kenn's. All Rights Reserved.</p>
-      <Link to="/about">About</Link>
+      <Link style={{textDecoration: "none"}} to="/about">About</Link>
     </footer>
   )
 }
